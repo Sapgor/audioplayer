@@ -1,0 +1,35 @@
+﻿<Window x:Class="AudioPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SpotifyMPT" Height="400" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <Button x:Name="OpenFolder" Content="Открыть" Click="OpenFolderButton_Click"/>
+            <Button x:Name="PlayPauseButton" Content="Играть" Click="PlayPauseButton_Click"/>
+            <Button x:Name="PreviousButton" Content="Предыдущая" Click="PreviousButton_Click"/>
+            <Button x:Name="NextButton" Content="Следующая" Click="NextButton_Click"/>
+            <Button x:Name="ShuffleButton" Content="Перемешать" Click="ShuffleButton_Click"/>
+            <Button x:Name="RepeatButton" Content="Повторить" Click="RepeatButton_Click"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Margin="10">
+            <MediaElement x:Name="mediaElement" LoadedBehavior="Manual"/>
+            <Slider x:Name="PositionSlider" ValueChanged="PositionSlider_ValueChanged"/>
+            <Slider x:Name="VolumeSlider" ValueChanged="VolumeSlider_ValueChanged" Minimum="0" Maximum="1" Width="100"/>
+            <WrapPanel>
+                <Label x:Name="CurrentTimeLabel" Content="00:00"/>
+                <Label Content="/"/>
+                <Label x:Name="RemainingTimeLabel"/>
+            </WrapPanel>
+        </StackPanel>
+
+        <Button x:Name="History" Grid.Row="2" Content="История" HorizontalAlignment="Right" Margin="10" Click="HistoryButton_Click"/>
+        <ListBox x:Name="HistoryListBox"  Grid.Row="1" HorizontalAlignment="Left" Margin="0,194,0,10" Width="Auto" Grid.RowSpan="2"/>
+    </Grid>
+</Window>

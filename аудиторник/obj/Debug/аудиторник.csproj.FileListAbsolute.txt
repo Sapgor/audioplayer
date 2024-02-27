@@ -1,0 +1,14 @@
+C:\Users\Пользователь\source\repos\аудиторник\аудиторник\bin\Debug\аудиторник.exe.config
+C:\Users\Пользователь\source\repos\аудиторник\аудиторник\bin\Debug\аудиторник.exe
+C:\Users\Пользователь\source\repos\аудиторник\аудиторник\bin\Debug\аудиторник.pdb
+C:\Users\Пользователь\source\repos\аудиторник\аудиторник\obj\Debug\аудиторник.csproj.AssemblyReference.cache
+C:\Users\Пользователь\source\repos\аудиторник\аудиторник\obj\Debug\MainWindow.baml
+C:\Users\Пользователь\source\repos\аудиторник\аудиторник\obj\Debug\MainWindow.g.cs
+C:\Users\Пользователь\source\repos\аудиторник\аудиторник\obj\Debug\App.g.cs
+C:\Users\Пользователь\source\repos\аудиторник\аудиторник\obj\Debug\аудиторник_MarkupCompile.cache
+C:\Users\Пользователь\source\repos\аудиторник\аудиторник\obj\Debug\аудиторник.g.resources
+C:\Users\Пользователь\source\repos\аудиторник\аудиторник\obj\Debug\аудиторник.Properties.Resources.resources
+C:\Users\Пользователь\source\repos\аудиторник\аудиторник\obj\Debug\аудиторник.csproj.GenerateResource.cache
+C:\Users\Пользователь\source\repos\аудиторник\аудиторник\obj\Debug\аудиторник.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\аудиторник\аудиторник\obj\Debug\аудиторник.exe
+C:\Users\Пользователь\source\repos\аудиторник\аудиторник\obj\Debug\аудиторник.pdb
